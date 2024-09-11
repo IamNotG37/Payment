@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/Payment/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="modulepreload" href="/Payment/app/immutable/entry/start.CJCNKnz5.js">
+		<link rel="modulepreload" href="/Payment/app/immutable/chunks/entry.DmjiCpgW.js">
+		<link rel="modulepreload" href="/Payment/app/immutable/chunks/scheduler.BvLojk_z.js">
+		<link rel="modulepreload" href="/Payment/app/immutable/entry/app.CuTZt5Km.js">
+		<link rel="modulepreload" href="/Payment/app/immutable/chunks/index.OsuhnpW-.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1fb336c = {
+						base: "/Payment",
+						assets: "/Payment"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/Payment/app/immutable/entry/start.CJCNKnz5.js"),
+						import("/Payment/app/immutable/entry/app.CuTZt5Km.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
